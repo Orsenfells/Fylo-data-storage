@@ -1,0 +1,51 @@
+body {
+    background-color: #0d142f;
+    padding: 0;
+    margin: 0;
+}
+.bottom { 
+    position: absolute;
+    bottom: 0;
+} 
+.bottom img {
+    height: 400px;
+    border-top-left-radius: 210px;
+    width: 100%;
+    z-index: -1;
+}
+.container {
+    background-color: #1e2c69;
+    height: 12em;
+    width: 18em;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    z-index: 1;
+    border-radius: 10px;
+    border-top-right-radius: 50%;
+}
+.logo {
+    position: relative;
+    top: 2em;
+    left: 2em;
+}
+.container div {
+    display: flex;
+    position: relative;
+    top: 4em;
+    left: 3em;   
+    
+}
+.container div a {
+    background-color: #09102c;
+    height: 2.5em;
+    border-radius: 5px;
+    width: 2.5em;
+    margin-right: 7px;
+    position: relative;
+}
+.container div a img {
+    position: absolute;
+    bottom: 23%;
+    left: 22%;  
+}
