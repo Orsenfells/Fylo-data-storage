@@ -145,11 +145,11 @@ span {
     left: 21.2%;  
 }
 @media screen and (max-width: 1000px) {
-    html {
-        overflow-x: hidden;
+    .container {
+        left: 11%
     }
     .storage-container {
-        left: 0;
+        left:0;
         top: 12em;
         width: 19em;
     }
