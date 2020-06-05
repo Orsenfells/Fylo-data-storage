@@ -149,5 +149,24 @@ span {
     .storage-container {
         left: 0;
         top: 12em;
+        width: 19em;
     }
+    .remaining {
+        top: 6em;
+        left: 5.5em;
+    }
+    .arrow-box {
+        visibility: hidden;
+    }
+    .progress-bar {
+        width: 16em;
+    }
+    .progress-lookin-thing {
+        width: 12em;
+    }
+    .bottom img {
+        height: 100vh;
+        position: relative;
+    }
+    
 }
